@@ -1,1 +1,1 @@
-Most of the music are from File Garden not here, simply because the game engine's 2nd sound engine refuses to import audio from my site for some reason.
+Most of the music are from File Garden, not here, simply because the game engine's 2nd sound engine refuses to import audio from my site for some reason.
