@@ -29,3 +29,21 @@ body {
   text-align: center;
   box-sizing: border-box-box;
 }
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-ascept-ratio: 16/9){
+  .back-video{
+    width: 100%;
+      height: auto;
+  }
+}
+@media (max-ascept-ratio: 16/9){
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+}
