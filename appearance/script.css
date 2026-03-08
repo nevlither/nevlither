@@ -1,7 +1,7 @@
-.outer {
+outer {
   border: 1px solid white;
 }
-.inner {
+inner {
   background: black;
   text-align: center;
   box-sizing: border-box;
