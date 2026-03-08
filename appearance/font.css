@@ -20,10 +20,12 @@ body {
 } */
 .outer {
   border: 1px solid #fff;
-  padding: 2px
+  padding: 1px;
+  margin: 2px;
 }
 .inner {
-  background: black;
+  background: linear-gradient(180deg, #661515, #221c1c);
+  padding: 16px clamp(0px,2.5vw,8px);
   text-align: center;
-  box-sizing: border-box;
+  box-sizing: border-box-box;
 }
