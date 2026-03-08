@@ -18,10 +18,11 @@ body {
 /* p {
   text-shadow: 2px 2px 2px #aaa;
 } */
-outer {
-  border: 1px solid white;
+.outer {
+  border: 1px solid #fff;
+  padding: 2px
 }
-inner {
+.inner {
   background: black;
   text-align: center;
   box-sizing: border-box;
