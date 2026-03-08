@@ -1,0 +1,8 @@
+.outer {
+  border: 1px solid white;
+}
+.inner {
+  background: black;
+  text-align: center;
+  box-sizing: border-box;
+}
