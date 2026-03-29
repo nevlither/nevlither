@@ -17,4 +17,4 @@ document.getElementById("pone").textContent = "More test wow";
 let online = true;
 let go = false;
 console.log(typeof online);
-console.log(`Go: ${go}})
+console.log(`Go: ${go}`);
