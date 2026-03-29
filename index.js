@@ -16,7 +16,8 @@ document.getElementById("pone").textContent = "More test wow";
 
 // boolean
 let online = true;
-let Again = "woah";
+let woah = "woah";
 console.log(typeof online);
-console.log(`Go: ${Again}`);
-document.getElementById("wow1").textContent = Again;
+console.log(`Go: ${woah}`);
+
+document.getElementById("wow1").textContent = woah;
