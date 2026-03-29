@@ -11,7 +11,7 @@ document.getElementById("pone").textContent = "More test wow";
 // comment
 
 //let x = 100 + 100 - 50;
-let x = -10;
+let x = 10;
 //x = x + 1;
 let x2 = x - 1 + "%";
 
