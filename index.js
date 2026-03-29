@@ -19,4 +19,4 @@ let online = true;
 let Again = "woah";
 console.log(typeof online);
 console.log(`Go: ${Again}`);
-document.getElementById("wow").textContent = Again;
+document.getElementById("wow1").textContent = Again;
