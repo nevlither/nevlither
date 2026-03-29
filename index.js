@@ -9,7 +9,8 @@ document.getElementById("pone").textContent = "More test wow";
 // comment
 
 let x = 100;
-x = x + 1;
+//x = x + 1;
+x = x - 1;
 
 console.log(x);
 //console.log(`One has ${x} stuff`);
