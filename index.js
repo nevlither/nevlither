@@ -36,5 +36,5 @@ let prompt;
 
 document.getElementById("submit0").onclick = function(){
 prompt = document.getElementById("text0").value;
-console.log();
+console.log(prompt);
 }
