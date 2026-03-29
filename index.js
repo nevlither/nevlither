@@ -7,3 +7,7 @@ document.getElementById("h1one").textContent = "Test";
 document.getElementById("pone").textContent = "More test wow";
 
 // comment
+
+let x = 100;
+
+console.log(x)
