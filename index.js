@@ -10,4 +10,6 @@ document.getElementById("pone").textContent = "More test wow";
 
 let x = 100;
 
-console.log(x)
+console.log(x);
+console.log(`One has ${x} stuff`);
+console.log(`This has ${x}`)
