@@ -1,3 +1,5 @@
+//note: index.js works on the bottom. the code after index.js won't work unless index.js is after the code
+
 //console.log("Hello");
 //console.log("I'm here, test test");
 
