@@ -10,15 +10,16 @@ document.getElementById("pone").textContent = "More test wow";
 
 // comment
 
-let x = 100 + 100 - 50;
+//let x = 100 + 100 - 50;
+let x = 10;
 //x = x + 1;
 let x2 = x - 1 + "%";
 
 console.log(x);
 console.log(x2);
 
-console.log(Math.PI);
-console.log(Math.E);
+//console.log(Math.PI);
+//console.log(Math.E);
 //console.log(`One has ${x} stuff`);
 //console.log(`This has ${x}`)
 
@@ -46,3 +47,7 @@ console.log(prompt);
 //random number test
 let randomNum = Math.floor(Math.random() * 10) + 1;
 console.log(randomNum)
+
+if(x > 0){
+console.log("You are greater than 0");
+}
