@@ -28,6 +28,5 @@ console.log(`Go: ${woah}`);
 document.getElementById("wow1").textContent = woah;
 
 //input test
-let prompt;
-prompt = window.prompt("Prompt?");
+let prompt = window.prompt("Prompt?");
 console.log(prompt);
