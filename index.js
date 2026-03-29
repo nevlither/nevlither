@@ -43,5 +43,5 @@ prompt = document.getElementById("h1one").textContent = `Test, ${prompt}`
 console.log(prompt);
 }
 
-let randomNum = Math.random() * 10;
+let randomNum = Math.floor(Math.random() * 10) + 1;
 console.log(randomNum)
