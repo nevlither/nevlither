@@ -4,5 +4,6 @@
 //window.alert("Alert test")
 
 document.getElementById("h1one").textContent = "Test";
-document.getElementById("phone").textContent = "More test wow";
+document.getElementById("pone").textContent = "More test wow";
+
 // comment
