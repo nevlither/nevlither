@@ -42,3 +42,6 @@ prompt = document.getElementById("text0").value;
 prompt = document.getElementById("h1one").textContent = `Test, ${prompt}`
 console.log(prompt);
 }
+
+let randomNum = Math.random();
+console.log(randomNum)
