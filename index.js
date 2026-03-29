@@ -12,7 +12,7 @@ document.getElementById("pone").textContent = "More test wow";
 
 let x = 100 + 100 - 50;
 //x = x + 1;
-let x2 = x - 1;
+let x2 = x - 1 + "%";
 
 console.log(x);
 console.log(x2);
