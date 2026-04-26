@@ -1,3 +1,4 @@
+
 /* website css */
 .body {
   background-attachment: fixed;
@@ -50,5 +51,5 @@
 }
 ::selection{
   color:#fff;
-  background-color:blue
+  background-color: linear-gradient(90deg, blue, rgb(68, 0, 156))
 }
