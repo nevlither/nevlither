@@ -10,3 +10,9 @@
   font-family: 'FFF Forward';
   src: url('/appearance/FFFFORWA.woff2') format('woff2');
     }
+  .fix
+  {
+    position: fixed;
+    max-width:30%;
+    max-height:30%;
+  }
