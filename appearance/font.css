@@ -33,23 +33,12 @@
 }
 .back-video {
   position: absolute;
-  right: 1;
-  bottom: 1;
+  right: 0;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
   z-index: -1;
-}
-@media (min-ascept-ratio: 10){
-  .back-video{
-    width: 100%;
-      height: auto;
-  }
-}
-@media (max-ascept-ratio: 16/9){
-  .back-video{
-    width: auto;
-    max-width: 800px;
-    height: auto;
-    display: block;
-  }
+  height: 100%;
 }
 ::selection{
   color:#fff;
