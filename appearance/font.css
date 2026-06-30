@@ -46,7 +46,9 @@
 @media (max-ascept-ratio: 16/9){
   .back-video{
     width: auto;
-    height: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
   }
 }
 ::selection{
