@@ -8,11 +8,17 @@
             body {
                 background-color: black;
             }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
         </style>
     </head>
 <body>
-    <figure><img src="assets/images/characters/vale-pencil.png" title="Vale" width="290" height="300"> </img><figcaption><marquee class="breaktext" style="font-family: F000webfont; color: #FFF; font-size: 25px;">aaa</marquee></figcaption></figure>
-    <figure><img src="assets/images/characters/vale-pencil.png" title="Vale" width="290" height="300"> </img><figcaption><marquee class="breaktext" style="font-family: F000webfont; color: #FFF; font-size: 25px;">aaa</marquee></figcaption></figure>
+    <div class="row">
+        <figure><img src="assets/images/characters/vale-pencil.png" title="Vale" width="290" height="300"> </img><figcaption><marquee class="breaktext" style="font-family: F000webfont; color: #FFF; font-size: 25px;">aaa</marquee></figcaption></figure>
+    </div>
 </body>
 
 </html>
