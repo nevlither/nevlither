@@ -48,8 +48,3 @@
   width: 287px;
   overflow-wrap: break-word;
 }
-.contain-image {
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-}
