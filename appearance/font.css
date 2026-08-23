@@ -49,5 +49,5 @@
   overflow-wrap: break-word;
 }
 .antisize {
-  object-fit: none;
+  object-fit: fill;
 }
