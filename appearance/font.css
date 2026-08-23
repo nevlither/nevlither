@@ -49,7 +49,7 @@
   overflow-wrap: break-word;
 }
 .contain-image {
-  display:;
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
   gap: 15px;
 }
