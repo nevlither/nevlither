@@ -44,3 +44,7 @@
   color:#fff;
   background-color: red
 }
+.breaktext {
+  width: 300px;
+  overflow-wrap: break-word;
+}
