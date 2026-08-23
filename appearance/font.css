@@ -48,3 +48,6 @@
   width: 287px;
   overflow-wrap: break-word;
 }
+.antisize {
+  object-fit: contain;
+}
