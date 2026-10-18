@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- test -->
+<html lang="en">
+  <head>
+    <title>Horau Alter</title>
+     <link href="/appearance/font.css" rel="stylesheet">
+  <style>
+    p {
+      user-select: none;
+    }
+    .column {
+      float: left;
+      width: 30.33%;
+      padding: 5px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+     .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 200%;
+      border:2px solid white;
+    }
+    /* bs: c, bp: c, br: nr won't exist if it doesn't work */
+    body {
+         background-image: url(preview/bg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 5%;
+    }
+          ::-webkit-scrollbar {
+                    width: 20px;
+          }
+          ::-webkit-scrollbar-track {
+                    background: gray;
+          }
+          ::-webkit-scrollbar-thumb {
+                    background: white;
+          }
+          ::-webkit-scrollbar-thumb:hover {
+                    background: blue;
+          }
+          p.solid {border-style: solid;}
+  </style>
+  </head>
+  <body>
+    <center>
+        <p style="font-family: F000webfont; font-size: 70px; color: #FFF"> Horau Alter </p>
+    </center>
+    <div class="row">
+      <div class="column">
+        <iframe src="404.html" width="600" height="400" title="Horau Alter"></iframe>
+      </div>
+    </div>
+        
+    </div>
+  </body>
+</html>
